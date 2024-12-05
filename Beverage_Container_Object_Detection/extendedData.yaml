@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['can_dbest_grassJellyDrink_320mL', 'can_delMonte_bobaMilkTeaTaro_240mL', 'can_f-N_seasonsSoyaBeanMilk_300mL', 'can_nescafe_cappuccino_220mL', 'can_olatte_peach_240mL', 'can_polaris_sodaWater_330mL', 'can_tujuhKurma_susuSterilKurma_189mL', 'plasticBottle_cleo_mineralWater_550mL', 'plasticBottle_crystalin_mineralWater_600mL', 'plasticBottle_dbest_chrysanthemumDrink_270mL', 'plasticBottle_inaco_imCocoLeci_350mL', 'plasticBottle_mizoneActive_lycheeLemon_500mL', 'plasticBottle_pocariSweat_isotonicDrink_500mL', 'plasticBottle_sosro_fruitTeaApple_350mL', 'plasticBottle_vit_mineralWater_550mL']
+
+roboflow:
+  workspace: project1-gagzp
+  project: beverage-containers-lz4vj
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project1-gagzp/beverage-containers-lz4vj/dataset/9
